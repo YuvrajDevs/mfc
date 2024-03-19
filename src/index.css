@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background-color: white ;
+}
+
+.navFont{
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.btnHover{
+  transition: 0.2s ease-in-out;
+}
